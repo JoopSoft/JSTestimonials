@@ -1,0 +1,5 @@
+D:\websites\dnndev.me\bin\JSTestimonials.dll
+D:\websites\dnndev.me\bin\JSTestimonials.pdb
+D:\websites\dnndev.me\DesktopModules\JSTestimonials\obj\Release\JSTestimonials.csprojResolveAssemblyReference.cache
+D:\websites\dnndev.me\DesktopModules\JSTestimonials\obj\Release\JSTestimonials.dll
+D:\websites\dnndev.me\DesktopModules\JSTestimonials\obj\Release\JSTestimonials.pdb
