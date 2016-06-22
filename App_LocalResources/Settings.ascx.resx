@@ -112,24 +112,267 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ControlTitle_settings.Text" xml:space="preserve">
     <value>JSTestimonials Settings</value>
   </data>
-  <data name="lblSetting1.Help" xml:space="preserve">
-    <value>Put your value for Setting 1 here.</value>
+  <data name="lblAuthorBoxBgColor.Help" xml:space="preserve">
+    <value>Set author box background color.</value>
   </data>
-  <data name="lblSetting1.Text" xml:space="preserve">
-    <value>Setting One</value>
+  <data name="lblAuthorBoxBgColor.Text" xml:space="preserve">
+    <value>Author Box Background Color</value>
   </data>
-  <data name="lblSetting2.Help" xml:space="preserve">
-    <value>Put your value for Setting 2 here.</value>
+  <data name="lblAuthorBoxPosition.Help" xml:space="preserve">
+    <value>Choose author box position option.</value>
   </data>
-  <data name="lblSetting2.Text" xml:space="preserve">
-    <value>Setting Two</value>
+  <data name="lblAuthorBoxPosition.Text" xml:space="preserve">
+    <value>Author Box Position</value>
+  </data>
+  <data name="lblAuthorBoxTextColor.Help" xml:space="preserve">
+    <value>Set author box text color.</value>
+  </data>
+  <data name="lblAuthorBoxTextColor.Text" xml:space="preserve">
+    <value>Author Box Text Color</value>
+  </data>
+  <data name="lblColorRatingStars.Help" xml:space="preserve">
+    <value>Set rating stars color.</value>
+  </data>
+  <data name="lblColorRatingStars.Text" xml:space="preserve">
+    <value>Rating Stars Color</value>
+  </data>
+  <data name="lblContentBoxBgColor.Help" xml:space="preserve">
+    <value>Set content background color.</value>
+  </data>
+  <data name="lblContentBoxBgColor.Text" xml:space="preserve">
+    <value>Content Background Color</value>
+  </data>
+  <data name="lblContentBoxTextColor.Help" xml:space="preserve">
+    <value>Set content text color.</value>
+  </data>
+  <data name="lblContentBoxTextColor.Text" xml:space="preserve">
+    <value>Content Text Color</value>
+  </data>
+  <data name="lblContentLayout.Help" xml:space="preserve">
+    <value>Choose content layout option.</value>
+  </data>
+  <data name="lblContentLayout.Text" xml:space="preserve">
+    <value>Content Layout</value>
+  </data>
+  <data name="lblContentBoxPosition.Help" xml:space="preserve">
+    <value>Choose content position option.</value>
+  </data>
+  <data name="lblContentBoxPosition.Text" xml:space="preserve">
+    <value>Content Position</value>
+  </data>
+  <data name="lblFontSize.Help" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFontSize.Text" xml:space="preserve">
+    <value>Font Size - Maybe delete</value>
+  </data>
+  <data name="lblFontStylize.Help" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFontStylize.Text" xml:space="preserve">
+    <value>Font Stylize - Maybe delete </value>
+  </data>
+  <data name="lblImageLayout.Help" xml:space="preserve">
+    <value>Choose image layout opton.</value>
+  </data>
+  <data name="lblImageLayout.Text" xml:space="preserve">
+    <value>Image Layout</value>
+  </data>
+  <data name="lblIsSorted.Help" xml:space="preserve">
+    <value>Use sorting by predifined criterias.</value>
+  </data>
+  <data name="lblIsSorted.Text" xml:space="preserve">
+    <value>Use Sorting</value>
+  </data>
+  <data name="lblLayoutOption.Help" xml:space="preserve">
+    <value>Choose layout option.</value>
+  </data>
+  <data name="lblLayoutOption.Text" xml:space="preserve">
+    <value>Layout Option</value>
+  </data>
+  <data name="lblQuotePosition.Help" xml:space="preserve">
+    <value>Choose quotes position.</value>
+  </data>
+  <data name="lblQuotePosition.Text" xml:space="preserve">
+    <value>Quotes Position</value>
+  </data>
+  <data name="lblShowCompany.Help" xml:space="preserve">
+    <value>Display/Hide company.</value>
+  </data>
+  <data name="lblShowCompany.Text" xml:space="preserve">
+    <value>Show Company</value>
+  </data>
+  <data name="lblShowCompanyPosition.Help" xml:space="preserve">
+    <value>Display/Hide company position.</value>
+  </data>
+  <data name="lblShowCompanyPosition.Text" xml:space="preserve">
+    <value>Show Company Position</value>
+  </data>
+  <data name="lblShowDate.Help" xml:space="preserve">
+    <value>Display/Hide date.</value>
+  </data>
+  <data name="lblShowDate.Text" xml:space="preserve">
+    <value>Show Date</value>
+  </data>
+  <data name="lblShowImage.Help" xml:space="preserve">
+    <value>Display/Hide author image.</value>
+  </data>
+  <data name="lblShowImage.Text" xml:space="preserve">
+    <value>Author Image</value>
+  </data>
+  <data name="lblShowQuote.Help" xml:space="preserve">
+    <value>Display/Hide quotes in content box.</value>
+  </data>
+  <data name="lblShowQuote.Text" xml:space="preserve">
+    <value>Show Quotes</value>
+  </data>
+  <data name="lblShowRatings.Help" xml:space="preserve">
+    <value>Display/Hide rating.</value>
+  </data>
+  <data name="lblShowRatings.Text" xml:space="preserve">
+    <value>Show Ratings</value>
+  </data>
+  <data name="lblShowWebsite.Help" xml:space="preserve">
+    <value>Display/Hide website.</value>
+  </data>
+  <data name="lblShowWebsite.Text" xml:space="preserve">
+    <value>Show Website</value>
+  </data>
+  <data name="lblSortBy.Help" xml:space="preserve">
+    <value>Sorting by.</value>
+  </data>
+  <data name="lblSortBy.Text" xml:space="preserve">
+    <value>Sorting By</value>
+  </data>
+  <data name="lblSortType.Help" xml:space="preserve">
+    <value>Sorting type.</value>
+  </data>
+  <data name="lblSortType.Text" xml:space="preserve">
+    <value>Sorting Type</value>
+  </data>
+  <data name="lblTargetWindow.Help" xml:space="preserve">
+    <value>Choose target window option.</value>
+  </data>
+  <data name="lblTargetWindow.Text" xml:space="preserve">
+    <value>Target Window</value>
+  </data>
+  <data name="lblUseSlider.Text" xml:space="preserve">
+    <value>Using Slider</value>
+  </data>
+  <data name="lblViewMode.Help" xml:space="preserve">
+    <value>Group testimonials view.</value>
+  </data>
+  <data name="lblViewMode.Text" xml:space="preserve">
+    <value>View as</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>JSTestimonials</value>
+  </data>
+  <data name="lblImageSize.Help" xml:space="preserve">
+    <value>Choose image size option.</value>
+  </data>
+  <data name="lblImageSize.Text" xml:space="preserve">
+    <value>Image Size</value>
+  </data>
+  <data name="lblAutoStartPlaying.Help" xml:space="preserve">
+    <value>Auto show starts playing on load. If &lt;b&gt;&lt;i&gt;false&lt;/i&gt;&lt;/b&gt;, slideshow will start when the "Start" control is clicked.</value>
+  </data>
+  <data name="lblAutoStartPlaying.Text" xml:space="preserve">
+    <value>Auto Start Play</value>
+  </data>
+  <data name="lblAutoTransition.Help" xml:space="preserve">
+    <value>Slides will automatically transition.</value>
+  </data>
+  <data name="lblAutoTransition.Text" xml:space="preserve">
+    <value>Auto Transition</value>
+  </data>
+  <data name="lblControls.Help" xml:space="preserve">
+    <value>Display/Hide "Next" / "Prev" controls.</value>
+  </data>
+  <data name="lblControls.Text" xml:space="preserve">
+    <value>Controls</value>
+  </data>
+  <data name="lblEasing.Help" xml:space="preserve">
+    <value>The type of &lt;b&gt;&lt;i&gt;"easing"&lt;/i&gt;&lt;/b&gt; to use during transitions.</value>
+  </data>
+  <data name="lblEasing.Text" xml:space="preserve">
+    <value>Easing</value>
+  </data>
+  <data name="lblInfiniteLoop.Help" xml:space="preserve">
+    <value>By clicking on &lt;b&gt;&lt;i&gt;"Next"&lt;/i&gt;&lt;/b&gt; while on the last slide will transition to the first slide.</value>
+  </data>
+  <data name="lblInfiniteLoop.Text" xml:space="preserve">
+    <value>Infinite Loop</value>
+  </data>
+  <data name="lblMaxSlides.Help" xml:space="preserve">
+    <value>The maximum number of slides to be shown. Slides will be sized up if carousel becomes larger than the original size.</value>
+  </data>
+  <data name="lblMaxSlides.Text" xml:space="preserve">
+    <value>Max. Slides</value>
+  </data>
+  <data name="lblMinSlides.Help" xml:space="preserve">
+    <value>The minimum number of slides to be shown. Slides will be sized down if carousel becomes smaller than the original size.</value>
+  </data>
+  <data name="lblMinSlides.Text" xml:space="preserve">
+    <value>Min. Slides</value>
+  </data>
+  <data name="lblMoveSlides.Help" xml:space="preserve">
+    <value>The number of slides to move on transition. This value must be &gt;= minSlides, and &lt;= maxSlides. If &lt;b&gt;&lt;i&gt;zero (default)&lt;/i&gt;&lt;/b&gt;, the number of fully-visible slides will be used.</value>
+  </data>
+  <data name="lblMoveSlides.Text" xml:space="preserve">
+    <value>Moving Slides Number</value>
+  </data>
+  <data name="lblPager.Help" xml:space="preserve">
+    <value>Display/Hide a pager.</value>
+  </data>
+  <data name="lblPager.Text" xml:space="preserve">
+    <value>Pager</value>
+  </data>
+  <data name="lblPagerSeparator.Help" xml:space="preserve">
+    <value>If &lt;b&gt;&lt;i&gt;pagerType: 'short'&lt;/i&gt;&lt;/b&gt;, pager will use this value as the separating character.</value>
+  </data>
+  <data name="lblPagerSeparator.Text" xml:space="preserve">
+    <value>Pager Separator</value>
+  </data>
+  <data name="lblPagerType.Help" xml:space="preserve">
+    <value>If &lt;b&gt;&lt;i&gt;'full'&lt;/i&gt;&lt;/b&gt;, a pager link will be generated for each slide. If &lt;b&gt;&lt;i&gt;'short'&lt;/i&gt;&lt;/b&gt;, a x / y pager will be used (ex. 1 / 5).</value>
+  </data>
+  <data name="lblPagerType.Text" xml:space="preserve">
+    <value>Pager Type</value>
+  </data>
+  <data name="lblRandomStart.Help" xml:space="preserve">
+    <value>Start slider on a random slide.</value>
+  </data>
+  <data name="lblRandomStart.Text" xml:space="preserve">
+    <value>Random Start</value>
+  </data>
+  <data name="lblSlideMargin.Help" xml:space="preserve">
+    <value>Margin between each slide.</value>
+  </data>
+  <data name="lblSlideMargin.Text" xml:space="preserve">
+    <value>Slide Margin</value>
+  </data>
+  <data name="lblSlideMode.Help" xml:space="preserve">
+    <value>Type of transition between slides.</value>
+  </data>
+  <data name="lblSlideMode.Text" xml:space="preserve">
+    <value>Slide Mode</value>
+  </data>
+  <data name="lblSlideWidth.Help" xml:space="preserve">
+    <value>The width of each slide. This setting is required for all &lt;b&gt;&lt;i&gt;horizontal&lt;/i&gt;&lt;/b&gt; carousels!</value>
+  </data>
+  <data name="lblSlideWidth.Text" xml:space="preserve">
+    <value>Slide Width</value>
+  </data>
+  <data name="lblUseSlider.Help" xml:space="preserve">
+    <value>Use testimonials as a slider.</value>
   </data>
 </root>

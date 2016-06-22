@@ -44,6 +44,14 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\bin\DotNetNuke.dll</HintPath>
     </Reference>
+    <Reference Include="DotNetNuke.Modules.Html, Version=8.0.0.809, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\DotNetNuke.Modules.Html.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetNuke.Web.Client, Version=8.0.0.809, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\DotNetNuke.Web.Client.dll</HintPath>
+    </Reference>
     <Reference Include="DotNetNuke.WebUtility, Version=4.2.1.783, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\bin\DotNetNuke.WebUtility.dll</HintPath>
@@ -55,6 +63,10 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\System.Web.Http.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
@@ -98,10 +110,41 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Edit.ascx" />
+    <Content Include="Images\Icons\checkbox.png" />
+    <Content Include="Images\Icons\h-icon.png" />
+    <Content Include="Images\Icons\icon.png" />
+    <Content Include="Images\Icons\radiobutton.png" />
+    <Content Include="Images\Icons\user.svg" />
+    <Content Include="Js\jquery.ellipsis.js" />
+    <Content Include="Js\jquery.ellipsis.min.js">
+      <DependentUpon>jquery.ellipsis.js</DependentUpon>
+    </Content>
+    <Content Include="Js\jquery.ellipsisScript.js" />
+    <Content Include="Js\jquery.paging.js" />
+    <Content Include="Js\jquery.paging.min.js">
+      <DependentUpon>jquery.paging.js</DependentUpon>
+    </Content>
+    <Content Include="Js\jquery.pagingScript.js" />
+    <Content Include="Js\JSScript.js" />
+    <Content Include="Js\main.js" />
+    <Content Include="Js\main.min.js">
+      <DependentUpon>main.js</DependentUpon>
+    </Content>
     <Content Include="License.txt" />
-    <Content Include="module.css" />
+    <Content Include="module.css">
+      <DependentUpon>module.scss</DependentUpon>
+    </Content>
+    <Content Include="module.min.css">
+      <DependentUpon>module.css</DependentUpon>
+    </Content>
     <Content Include="ReleaseNotes.txt" />
     <Content Include="Settings.ascx" />
+    <Content Include="Styles\variables.css">
+      <DependentUpon>variables.scss</DependentUpon>
+    </Content>
+    <Content Include="Styles\variables.min.css">
+      <DependentUpon>variables.css</DependentUpon>
+    </Content>
     <Content Include="View.ascx" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +167,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="module.scss" />
+    <Content Include="Styles\variables.scss" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,104 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path />
+      <name>Edit.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>License.txt</name>
+    </file>
+    <file>
+      <path />
+      <name>module.css</name>
+    </file>
+    <file>
+      <path />
+      <name>module.min.css</name>
+    </file>
+    <file>
+      <path />
+      <name>ReleaseNotes.txt</name>
+    </file>
+    <file>
+      <path />
+      <name>Settings.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>View.ascx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Edit.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Settings.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>View.ascx.resx</name>
+    </file>
+    <file>
+      <path>Images/Icons/</path>
+      <name>checkbox.png</name>
+    </file>
+    <file>
+      <path>Images/Icons/</path>
+      <name>h-icon.png</name>
+    </file>
+    <file>
+      <path>Images/Icons/</path>
+      <name>icon.png</name>
+    </file>
+    <file>
+      <path>Images/Icons/</path>
+      <name>radiobutton.png</name>
+    </file>
+    <file>
+      <path>Js/</path>
+      <name>jquery.ellipsis.js</name>
+    </file>
+    <file>
+      <path>Js/</path>
+      <name>jquery.ellipsis.min.js</name>
+    </file>
+    <file>
+      <path>Js/</path>
+      <name>jquery.ellipsisScript.js</name>
+    </file>
+    <file>
+      <path>Js/</path>
+      <name>jquery.paging.js</name>
+    </file>
+    <file>
+      <path>Js/</path>
+      <name>jquery.paging.min.js</name>
+    </file>
+    <file>
+      <path>Js/</path>
+      <name>jquery.pagingScript.js</name>
+    </file>
+    <file>
+      <path>Js/</path>
+      <name>JSScript.js</name>
+    </file>
+    <file>
+      <path>Js/</path>
+      <name>main.js</name>
+    </file>
+    <file>
+      <path>Js/</path>
+      <name>main.min.js</name>
+    </file>
+    <file>
+      <path>Styles/</path>
+      <name>variables.css</name>
+    </file>
+    <file>
+      <path>Styles/</path>
+      <name>variables.min.css</name>
+    </file>
+  </files>
+</dotnetnuke>
