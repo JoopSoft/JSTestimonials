@@ -46,15 +46,21 @@ namespace JS.Modules.JSTestimonials
                 //rptItemList.DataBind();
                 //lnkSettings.NavigateUrl = "javascript:dnnModal.show('http://dnndev.me/DNN-Modules-DAL2/Testimonials/ctl/Module/ModuleId/" + ModuleId + "?ReturnURL=/JS-FAQ&amp;popUp=true#msSpecifiSettings',/*showReturn*/false,550,950,true,'')";
 
+                //Code should be improved
                 lblContentHolder.Text = "<strong class='link-key'>Installed Key: </strong>jDEnn#$%rfdDGessd&$^Iskh";
                 lblContentHolder.CssClass = "content-holder warning";
 
                 lblContentHolderActivate.Text = "<strong class='link-unlock'>Activated</strong>";
                 lblContentHolderActivate.CssClass = "content-holder success";
 
-
+                lnkCheckLicenseKey.Text = "Activate";
+                lnkCheckLicenseKey.ToolTip = "Activate Module";
                 lnkCheckLicenseKey.CssClass = "btn btn-danger link-lock";
+
+                lnkGetOwnerInfo.ToolTip = "Owner Info";
                 lnkGetOwnerInfo.CssClass = "btn btn-success link-info no-txt";
+                //End of this
+
             }
             catch (Exception exc) //Module failed to load
             {

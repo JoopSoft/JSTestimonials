@@ -23,7 +23,7 @@
                 <asp:Label ID="lblContentHolderActivate" runat="server" />
 
                 <asp:LinkButton ID="lnkCheckLicenseKey" runat="server"
-                    ResourceKey="lnkCheckLicenseKey" OnClick="lnkCheckLicenseKey_Click" />
+                    OnClick="lnkCheckLicenseKey_Click" />
                 <asp:LinkButton ID="lnkGetOwnerInfo" runat="server"
                     OnClick="lnkMoreInfo_Click" />
 
