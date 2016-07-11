@@ -44,8 +44,17 @@ namespace JS.Modules.JSTestimonials
                 //var tc = new ItemController();
                 //rptItemList.DataSource = tc.GetItems(ModuleId);
                 //rptItemList.DataBind();
-                lnkSettings.NavigateUrl = "javascript:dnnModal.show('http://dnndev.me/DNN-Modules-DAL2/Testimonials/ctl/Module/ModuleId/" + ModuleId + "?ReturnURL=/JS-FAQ&amp;popUp=true#msSpecifiSettings',/*showReturn*/false,550,950,true,'')";
+                //lnkSettings.NavigateUrl = "javascript:dnnModal.show('http://dnndev.me/DNN-Modules-DAL2/Testimonials/ctl/Module/ModuleId/" + ModuleId + "?ReturnURL=/JS-FAQ&amp;popUp=true#msSpecifiSettings',/*showReturn*/false,550,950,true,'')";
 
+                lblContentHolder.Text = "<strong class='link-key'>Installed Key: </strong>jDEnn#$%rfdDGessd&$^Iskh";
+                lblContentHolder.CssClass = "content-holder warning";
+
+                lblContentHolderActivate.Text = "<strong class='link-unlock'>Activated</strong>";
+                lblContentHolderActivate.CssClass = "content-holder success";
+
+
+                lnkCheckLicenseKey.CssClass = "btn btn-danger link-lock";
+                lnkGetOwnerInfo.CssClass = "btn btn-success link-info no-txt";
             }
             catch (Exception exc) //Module failed to load
             {
@@ -111,5 +120,58 @@ namespace JS.Modules.JSTestimonials
                return actions;
            }
        }
+        protected void lnkFirstButton_Click(object sender, EventArgs e)
+        {
+            pnlPopUp.Visible = true;
+            pnlPopUp.CssClass = "popup overlay";
+            lblPopUpIcon.CssClass = "popup-icon link-key";
+            lblPopUpTitle.Text = "Generate Confirmation Key";
+            pnlInputGroups.Visible = true;
+            pnlAlerts.Visible = true;
+            pnlButtonGroups.Visible = true;
+            pnlOwnerInfo.Visible = true;
+            txtKey.Focus();
+            txtKey.Attributes["Placeholder"] = "Enter Installed Key";
+            lblKey.Text = "<strong>Installed Key</strong>";
+            pnlOwnerInfo.CssClass = "pnl-owner-info collapse";
+            lnkSubmit.CssClass = "btn btn-primary link-key no-txt";
+            lnkSubmit.ToolTip = "Generate Confirmation Key";
+        }
+
+        protected void btnClose_Click(object sender, EventArgs e)
+        {
+            pnlPopUp.Visible = false;
+
+        }
+
+        protected void lnkMoreInfo_Click(object sender, EventArgs e)
+        {
+            pnlPopUp.Visible = true;
+            pnlPopUp.CssClass = "popup overlay success";
+            lblPopUpIcon.CssClass = "popup-icon link-info";
+            lblPopUpTitle.Text = "Owner Info";
+            pnlInputGroups.Visible = false;
+            pnlAlerts.Visible = false;
+            pnlButtonGroups.Visible = false;
+            pnlOwnerInfo.Visible = true;
+            pnlOwnerInfo.CssClass = "pnl-owner-info";
+        }
+
+        protected void lnkCheckLicenseKey_Click(object sender, EventArgs e)
+        {
+            pnlPopUp.Visible = true;
+            pnlPopUp.CssClass = "popup overlay warning";
+            lblPopUpIcon.CssClass = "popup-icon link-lock";
+            lblPopUpTitle.Text = "Activate Module";
+            pnlInputGroups.Visible = true;
+            pnlAlerts.Visible = true;
+            pnlButtonGroups.Visible = false;
+            pnlOwnerInfo.Visible = false;
+            txtKey.Focus();
+            txtKey.Attributes["Placeholder"] = "Enter Confirmation Key";
+            lblKey.Text = "<strong>Confirmation Key</strong>";
+            lnkSubmit.CssClass = "btn btn-primary link-lock no-txt";
+            lnkSubmit.ToolTip = "Activate Module";
+        }
     }
 }

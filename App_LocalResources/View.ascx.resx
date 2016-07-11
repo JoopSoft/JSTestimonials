@@ -123,6 +123,9 @@
   <data name="EditModule.Text" xml:space="preserve">
     <value>Add Testimonial Entry</value>
   </data>
+  <data name="lnkCheckLicenseKey.Text" xml:space="preserve">
+    <value>Activate</value>
+  </data>
   <data name="lnkFirstButton.Text" xml:space="preserve">
     <value>Add Testimonial Entry</value>
   </data>

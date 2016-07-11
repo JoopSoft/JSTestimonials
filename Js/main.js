@@ -32,9 +32,13 @@
             $lnkInfo = '<i class="fa fa-info-circle"></i>',
             $lnkClose = '<i class="fa fa-close"></i>',
             $lnkWarning = '<i class="fa fa-warning"></i>',
+            $lnkLock = '<i class="fa fa-lock"></i>',
+            $lnkUnlock = '<i class="fa fa-unlock"></i>',
             $lnkSettings = '<i class="fa fa-cog"></i>',
             $lnkCheck = '<i class="fa fa-check"></i>',
             $lnkImage = '<i class="fa fa-picture-o"></i>',
+            $lnkCopy = '<i class="fa fa-clipboard"></i>',
+            $lnkKey = '<i class="fa fa-key"></i>',
             $lnkPrev = '<i class="fa fa-angle-left"></i>',
             $lnkNext = '<i class="fa fa-angle-right"></i>',
             $lnkQuoteLeft = '<i class="fa fa-quote-left"></i>',
@@ -60,9 +64,13 @@
         $('.JSTestimonials .link-prev').prepend($lnkPrev + ' ');
         $('.JSTestimonials .link-close').prepend($lnkClose + ' ');
         $('.JSTestimonials .link-warning').prepend($lnkWarning + ' ');
+        $('.JSTestimonials .link-lock').prepend($lnkLock + ' ');
+        $('.JSTestimonials .link-unlock').prepend($lnkUnlock + ' ');
         $('.JSTestimonials .link-settings').prepend($lnkSettings + ' ');
         $('.JSTestimonials .link-check').prepend($lnkCheck + ' ');
         $('.JSTestimonials .link-image').prepend($lnkImage + ' ');
+        $('.JSTestimonials .link-copy').prepend($lnkCopy + ' ');
+        $('.JSTestimonials .link-key').prepend($lnkKey + ' ');
         $('.JSTestimonials .link-next').append(' ' + $lnkNext);
         $('.JSTestimonials .link-quote-left').prepend($lnkQuoteLeft + ' ').find('.fa').addClass($largeIcon);
         $('.JSTestimonials .link-quote-right').append(' ' + $lnkQuoteRight).find('.fa').addClass($largeIcon);
@@ -108,9 +116,13 @@
         $('.JSTestimonials .link-next.no-txt').html($lnkNext);
         $('.JSTestimonials .link-close.no-txt').html($lnkClose);
         $('.JSTestimonials .link-warning.no-txt').html($lnkWarning);
+        $('.JSTestimonials .link-lock.no-txt').html($lnkLock);
+        $('.JSTestimonials .link-unlock.no-txt').html($lnkUnlock);
         $('.JSTestimonials .link-settings.no-txt').html($lnkSettings);
         $('.JSTestimonials .link-check.no-txt').html($lnkCheck);
         $('.JSTestimonials .link-image.no-txt').html($lnkImage);
+        $('.JSTestimonials .link-copy.no-txt').html($lnkCopy);
+        $('.JSTestimonials .link-key.no-txt').html($lnkKey);
         $('.JSTestimonials .link-quote-left.no-txt').html($lnkQuoteLeft).find('.fa').addClass($largeIcon);
         $('.JSTestimonials .link-quote-right.no-txt').html($lnkQuoteRight).find('.fa').addClass($largeIcon);
         $('.JSTestimonials .link-5-star.no-txt').html(function () {
