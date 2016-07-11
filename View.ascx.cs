@@ -59,6 +59,14 @@ namespace JS.Modules.JSTestimonials
 
                 lnkGetOwnerInfo.ToolTip = "Owner Info";
                 lnkGetOwnerInfo.CssClass = "btn btn-success link-info no-txt";
+
+                lblInfoInstalledKey.Text = "<strong class='link-key'>Installed Key: </strong>47334jLJND#@fsssdg#dvjjbb343#$$";
+                lblInfoConfirmKey.Text = "<strong class='link-key'>Confirm Key: </strong>fsjjdv34347bbs33D#@#$s4jLJNdg#$";
+                lblInfoCompany.Text = "<strong class='link-company'>Company: </strong>JoopSOFT Ltd.";
+                lblInfoEmail.Text = "<strong class='link-mail'>Email: </strong><a href='mailto:iliya@devedjiev.me' title='Send mail to iliya@devedjiev.me'>iliya@devedjiev.me</a>";
+                lblInfoCellPhone.Text = "<strong class='link-phone'>Phone: </strong>+359878/209292";
+                lblInfoDomain.Text = "<strong class='link-globe'>Installed on: </strong><a href='www.devedjiev.me' title='Installed on www.devedjiev.me' target='_blank'>www.devedjiev.me</a>";
+
                 //End of this
 
             }
@@ -67,7 +75,7 @@ namespace JS.Modules.JSTestimonials
                 Exceptions.ProcessModuleLoadException(this, exc);
             }
         }
-        
+
         //protected void rptItemListOnItemDataBound(object sender, RepeaterItemEventArgs e)
         //{
         //    if (e.Item.ItemType == ListItemType.AlternatingItem || e.Item.ItemType == ListItemType.Item)
@@ -97,52 +105,20 @@ namespace JS.Modules.JSTestimonials
         //}
 
 
-       // public void rptItemListOnItemCommand(object source, RepeaterCommandEventArgs e)
-       // {
-       //     if (e.CommandName == "Edit")
-       //     {
-       //         Response.Redirect(EditUrl(string.Empty, string.Empty, "Edit", "tid=" + e.CommandArgument));
-       //     }
-       //
-       //     if (e.CommandName == "Delete")
-       //     {
-       //         var tc = new ItemController();
-       //         tc.DeleteItem(Convert.ToInt32(e.CommandArgument), ModuleId);
-       //     }
-       //     Response.Redirect(DotNetNuke.Common.Globals.NavigateURL());
-       // }
-
-       public ModuleActionCollection ModuleActions
-       {
-           get
-           {
-               var actions = new ModuleActionCollection
-                   {
-                       {
-                           GetNextActionID(), Localization.GetString("EditModule", LocalResourceFile), "", "", "",
-                           EditUrl(), false, SecurityAccessLevel.Edit, true, false
-                       }
-                   };
-               return actions;
-           }
-       }
-        protected void lnkFirstButton_Click(object sender, EventArgs e)
-        {
-            pnlPopUp.Visible = true;
-            pnlPopUp.CssClass = "popup overlay";
-            lblPopUpIcon.CssClass = "popup-icon link-key";
-            lblPopUpTitle.Text = "Generate Confirmation Key";
-            pnlInputGroups.Visible = true;
-            pnlAlerts.Visible = true;
-            pnlButtonGroups.Visible = true;
-            pnlOwnerInfo.Visible = true;
-            txtKey.Focus();
-            txtKey.Attributes["Placeholder"] = "Enter Installed Key";
-            lblKey.Text = "<strong>Installed Key</strong>";
-            pnlOwnerInfo.CssClass = "pnl-owner-info collapse";
-            lnkSubmit.CssClass = "btn btn-primary link-key no-txt";
-            lnkSubmit.ToolTip = "Generate Confirmation Key";
-        }
+        // public void rptItemListOnItemCommand(object source, RepeaterCommandEventArgs e)
+        // {
+        //     if (e.CommandName == "Edit")
+        //     {
+        //         Response.Redirect(EditUrl(string.Empty, string.Empty, "Edit", "tid=" + e.CommandArgument));
+        //     }
+        //
+        //     if (e.CommandName == "Delete")
+        //     {
+        //         var tc = new ItemController();
+        //         tc.DeleteItem(Convert.ToInt32(e.CommandArgument), ModuleId);
+        //     }
+        //     Response.Redirect(DotNetNuke.Common.Globals.NavigateURL());
+        // }
 
         protected void btnClose_Click(object sender, EventArgs e)
         {
@@ -158,7 +134,6 @@ namespace JS.Modules.JSTestimonials
             lblPopUpTitle.Text = "Owner Info";
             pnlInputGroups.Visible = false;
             pnlAlerts.Visible = false;
-            pnlButtonGroups.Visible = false;
             pnlOwnerInfo.Visible = true;
             pnlOwnerInfo.CssClass = "pnl-owner-info";
         }
@@ -171,13 +146,27 @@ namespace JS.Modules.JSTestimonials
             lblPopUpTitle.Text = "Activate Module";
             pnlInputGroups.Visible = true;
             pnlAlerts.Visible = true;
-            pnlButtonGroups.Visible = false;
             pnlOwnerInfo.Visible = false;
             txtKey.Focus();
             txtKey.Attributes["Placeholder"] = "Enter Confirmation Key";
             lblKey.Text = "<strong>Confirmation Key</strong>";
             lnkSubmit.CssClass = "btn btn-primary link-lock no-txt";
             lnkSubmit.ToolTip = "Activate Module";
+        }
+
+        public ModuleActionCollection ModuleActions
+        {
+            get
+            {
+                var actions = new ModuleActionCollection
+                   {
+                       {
+                           GetNextActionID(), Localization.GetString("EditModule", LocalResourceFile), "", "", "",
+                           EditUrl(), false, SecurityAccessLevel.Edit, true, false
+                       }
+                   };
+                return actions;
+            }
         }
     }
 }

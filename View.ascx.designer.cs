@@ -94,6 +94,15 @@ namespace JS.Modules.JSTestimonials {
         protected global::System.Web.UI.WebControls.LinkButton lnkGetOwnerInfo;
         
         /// <summary>
+        /// lnkSettings control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink lnkSettings;
+        
+        /// <summary>
         /// rptTestimonials control.
         /// </summary>
         /// <remarks>
@@ -1163,42 +1172,6 @@ namespace JS.Modules.JSTestimonials {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblPopUpMsg;
-        
-        /// <summary>
-        /// pnlButtonGroups control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel pnlButtonGroups;
-        
-        /// <summary>
-        /// btnGenConfirmKey control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnGenConfirmKey;
-        
-        /// <summary>
-        /// btnActivateModule control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnActivateModule;
-        
-        /// <summary>
-        /// lnkOwnerInfo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink lnkOwnerInfo;
         
         /// <summary>
         /// pnlOwnerInfo control.

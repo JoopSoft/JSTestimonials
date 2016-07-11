@@ -5,8 +5,6 @@
 <dnn:DnnCssInclude ID="bxSliderCss" runat="server" FilePath="//cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.min.css" />
 <dnn:DnnCssInclude ID="fontAwesomeCss" runat="server" FilePath="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" />
 
-
-
 <div class="JSTestimonials">
     <div class="view">
 
@@ -33,8 +31,8 @@
                 ResourceKey="lnkEdit" ToolTip="Edit Category Lists" />
             <asp:HyperLink ID="lnkManage" runat="server" CssClass="btn btn-primary link-settings no-txt"
                 ResourceKey="lnkManage" ToolTip="Manage Categories" />--%>
-                <%--<asp:HyperLink ID="lnkSettings" runat="server" CssClass="btn btn-primary link-settings no-txt"
-                    ResourceKey="lnkSettings" ToolTip="Settings" />--%>
+                <asp:HyperLink ID="lnkSettings" runat="server" CssClass="btn btn-primary link-settings no-txt"
+                    ResourceKey="lnkSettings" ToolTip="Settings" />
             </div>
         </asp:Panel>
 
@@ -1774,7 +1772,6 @@
                             data-toggle="tooltip" />
                     </span>
                 </asp:Panel>
-
                 <asp:Panel ID="pnlAlerts" runat="server" CssClass="alert alert-danger alert-dismissible">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true" class="link-close no-txt">&times;</span>
@@ -1782,38 +1779,16 @@
                     <asp:Label ID="lblPopUpMsg" runat="server"
                         Text="Error messaging status text.." />
                 </asp:Panel>
-
-                <asp:Panel ID="pnlButtonGroups" runat="server" CssClass="btn-group" role="group" aria-label="Control buttons">
-                    <asp:LinkButton ID="btnGenConfirmKey" runat="server" CssClass="btn btn-primary link-key"
-                        ResourceKey="btnGenConfirmKey"
-                        data-toggle="tooltip" ToolTip="Generate Confirm Key" />
-
-                    <asp:LinkButton ID="btnActivateModule" runat="server" CssClass="btn btn-primary link-lock"
-                        ResourceKey="btnActivateModule"
-                        data-toggle="tooltip" ToolTip="Activate Module" />
-
-                    <asp:HyperLink ID="lnkOwnerInfo" runat="server" CssClass="btn btn-primary link-info"
-                        href="#pnlOwnerInfo" aria-expanded="false" ResourceKey="lnkOwnerInfo"
-                        data-toggle="collapse" data-toggle-tooltip="tooltip" ToolTip="Owner Info" />
-                </asp:Panel>
-
                 <asp:Panel ID="pnlOwnerInfo" runat="server" ClientIDMode="Static">
                     <div class="owner-wrapper">
-                        <asp:Label ID="lblInfoInstalledKey" runat="server"
-                            Text="<strong>Installed Key: </strong>47334jLJND#@fsssdg#dvjjbb343#$$" />
-                        <asp:Label ID="lblInfoConfirmKey" runat="server"
-                            Text="<strong>Confirm Key: </strong>fsjjdv34347bbs33D#@#$s4jLJNdg#$" />
-                        <asp:Label ID="lblInfoCompany" runat="server"
-                            Text="<strong>Company: </strong>JoopSOFT Ltd." />
-                        <asp:Label ID="lblInfoEmail" runat="server"
-                            Text="<strong>Email: </strong><a href='mailto:iliya@devedjiev.me' title='Send mail to iliya@devedjiev.me'>iliya@devedjiev.me</a>" />
-                        <asp:Label ID="lblInfoCellPhone" runat="server"
-                            Text="<strong>Cell: </strong>+359878/209292" />
-                        <asp:Label ID="lblInfoDomain" runat="server"
-                            Text="<strong>Installed on: </strong><a href='www.devedjiev.me' title='Installed domain' target='_blank'>www.devedjiev.me</a>" />
+                        <asp:Label ID="lblInfoInstalledKey" runat="server" />
+                        <asp:Label ID="lblInfoConfirmKey" runat="server" />
+                        <asp:Label ID="lblInfoCompany" runat="server" />
+                        <asp:Label ID="lblInfoEmail" runat="server" />
+                        <asp:Label ID="lblInfoCellPhone" runat="server" />
+                        <asp:Label ID="lblInfoDomain" runat="server" />
                     </div>
                 </asp:Panel>
-
 
                 <asp:LinkButton ID="btnClose" runat="server" CssClass="close-action btn btn-danger link-close no-txt"
                     data-toggle="tooltip" ToolTip="Close" OnClick="btnClose_Click" />

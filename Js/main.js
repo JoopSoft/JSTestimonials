@@ -39,6 +39,10 @@
             $lnkImage = '<i class="fa fa-picture-o"></i>',
             $lnkCopy = '<i class="fa fa-clipboard"></i>',
             $lnkKey = '<i class="fa fa-key"></i>',
+            $lnkCompany = '<i class="fa fa-building-o"></i>',
+            $lnkMail = '<i class="fa fa-envelope-o"></i>',
+            $lnkPhone = '<i class="fa fa-phone"></i>',
+            $lnkGlobe = '<i class="fa fa-globe"></i>',
             $lnkPrev = '<i class="fa fa-angle-left"></i>',
             $lnkNext = '<i class="fa fa-angle-right"></i>',
             $lnkQuoteLeft = '<i class="fa fa-quote-left"></i>',
@@ -71,6 +75,10 @@
         $('.JSTestimonials .link-image').prepend($lnkImage + ' ');
         $('.JSTestimonials .link-copy').prepend($lnkCopy + ' ');
         $('.JSTestimonials .link-key').prepend($lnkKey + ' ');
+        $('.JSTestimonials .link-company').prepend($lnkCompany + ' ');
+        $('.JSTestimonials .link-mail').prepend($lnkMail + ' ');
+        $('.JSTestimonials .link-phone').prepend($lnkPhone + ' ');
+        $('.JSTestimonials .link-globe').prepend($lnkGlobe + ' ');
         $('.JSTestimonials .link-next').append(' ' + $lnkNext);
         $('.JSTestimonials .link-quote-left').prepend($lnkQuoteLeft + ' ').find('.fa').addClass($largeIcon);
         $('.JSTestimonials .link-quote-right').append(' ' + $lnkQuoteRight).find('.fa').addClass($largeIcon);
@@ -123,6 +131,10 @@
         $('.JSTestimonials .link-image.no-txt').html($lnkImage);
         $('.JSTestimonials .link-copy.no-txt').html($lnkCopy);
         $('.JSTestimonials .link-key.no-txt').html($lnkKey);
+        $('.JSTestimonials .link-company.no-txt').html($lnkCompany);
+        $('.JSTestimonials .link-mail.no-txt').html($lnkMail);
+        $('.JSTestimonials .link-phone.no-txt').html($lnkPhone);
+        $('.JSTestimonials .link-globe.no-txt').html($lnkGlobe);
         $('.JSTestimonials .link-quote-left.no-txt').html($lnkQuoteLeft).find('.fa').addClass($largeIcon);
         $('.JSTestimonials .link-quote-right.no-txt').html($lnkQuoteRight).find('.fa').addClass($largeIcon);
         $('.JSTestimonials .link-5-star.no-txt').html(function () {
